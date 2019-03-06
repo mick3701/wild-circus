@@ -1,0 +1,43 @@
+var nbPersonne;
+var nbEnfant;
+var nbStudent;
+var nbAdult;
+var total;
+var weekend;
+
+function calcPrix(){
+	nbPersonne = document.getElementById("nbPers").value;
+	nbEnfant = document.getElementById("nbUnder").value;
+	nbStudent = document.getElementById("student").value;
+
+	weekend = document.getElementById("jour");
+	if (weekend.checked == true){
+		var prix = [12, 8, 6, 5];
+	}
+	else{
+		var prix = [10, 6, 4, 3];
+	}
+
+	console.log(weekend);
+	if (nbPersonne > 10){
+		total = prix[2] * nbPersonne;
+		document.getElementById("total").innerHTML = total;
+	}
+	else{
+		nbAdult = nbPersonne - nbEnfant - nbStudent;
+		total = (prix[0] * nbAdult) + (prix[1] * nbEnfant) + (prix[3] * nbStudent);
+		document.getElementById("total").innerHTML = "vous pairais un total de " + total + " euros.";
+	}
+}
+
+function essaiTab(){
+	var tab = [];
+	var index = 0;
+
+	tab[index] = document.getElementById("Contactname").value;
+	index++;
+	tab[index] = document.getElementById("ContactMail").value;
+	index++;
+	tab[index] = document.getElementById("Contactcontent").value;
+	console.log(tab);
+}
