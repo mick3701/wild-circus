@@ -1,0 +1,225 @@
+body {
+  background-image: url("https://www.cathkathcatt.ch/f/wp-content/uploads/sites/3/2016/01/RonnyRoller.jpg");
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #39ff00;
+  border: #fdff00 solid 3px;
+  text-shadow: -6px 6px 7px #ff00d2;
+}
+
+li {
+  color: #d7f521;
+  list-style: none;
+  display: inline;
+  font-family: "Amatic SC", cursive;
+  text-shadow: -4px 4px 5px #f000ff;
+  font-size: 25px;
+}
+
+a {
+  color: #39ff00;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  letter-spacing: 20px;
+}
+
+h2 {
+  font-family: "Amatic SC", cursive;
+  color: #39ff00;
+  font-size: 40px;
+  text-shadow: -4px 4px 5px #f000ff;
+}
+#sec ul {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#sec li {
+  max-width: 160px;
+  height: auto;
+  display: inline-block;
+  background-color: #05007e;
+  border-radius: 10px;
+  vertical-align: top;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0 5px;
+}
+
+#sec h3 {
+  font-family: "Amatic SC", cursive;
+  font-size: 45px;
+  text-align: center;
+  color: #39ff00;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+#laugh,
+#dream,
+#marvel {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#perf p {
+  text-align: justify;
+  color: #d7f521;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  text-shadow: -4px 4px 5px #f000ff;
+}
+
+p {
+  color: #d7f521;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  text-shadow: -4px 4px 5px #f000ff;
+  margin-left: 15px;
+}
+
+#h {
+  font-family: "Amatic SC", cursive;
+  position: absolute;
+  right: 200px;
+  color: #39ff00;
+  font-size: 40px;
+  text-shadow: -4px 4px 5px #ff00d2;
+}
+.ar {
+  background-image: url("http://www.journaldunenicoise.com/wp-content/uploads/2015/01/DSC_8597.jpg");
+  background-repeat: no-repeat;
+}
+
+pre {
+  color: #d7f521;
+  font-size: 25px;
+  text-align: right;
+  font-family: "Amatic SC", cursive;
+  text-shadow: -4px 4px 5px #f000ff;
+  margin-right: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-right: 20px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  font-family: "Amatic SC", cursive;
+  background-color: #5c0515;
+  color: #f4ff3a;
+  font-size: 20px;
+  margin: 20px;
+}
+
+td {
+  background-color: #000b37;
+  color: #00ff0b;
+  padding-right: 15px;
+}
+
+form {
+  background-image: url("https://www.humanite.fr/sites/default/files/styles/1048x350/public/images/54739.HR.jpg?itok=lvY8kgcY");
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  border-color: pink;
+  margin: 0 auto;
+  width: 600px;
+}
+
+div {
+  color: #d7f521;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  text-shadow: -4px 4px 5px #f000ff;
+  margin-left: 20px;
+}
+
+label {
+  color: #d7f521;
+  font-family: "Amatic SC", cursive;
+  text-shadow: -4px 4px 5px #f000ff;
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: right;
+}
+
+ol {
+  color: #63aaff;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  text-shadow: -4px 4px 5px #f000ff;
+}
+
+.title {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  background-color: grey;
+  color: black;
+  font-size: 20px;
+}
+
+input:hover {
+  background-color: #22160a;
+  color: green;
+  transition: all 0.5s ease;
+  border-radius: 150px;
+}
+
+input[type="submit"] {
+  background-color: grey;
+  color: #39ff00;
+  border: 1px solid #c2ce58;
+  padding: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #22160a;
+  color: white;
+  transition: all 0.5s ease;
+  border-radius: 150px;
+}
+
+textarea {
+  display: inline-block;
+  text-align: right;
+}
+
+footer {
+  background-image: url("http://static01.cirquedusoleil.com/fr/~/media/shows/la_nouba/images/content/header-banner/personnage01.jpg");
+}
+
+footer h3 {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: -4px 4px 5px #ff00d2;
+  color: #39ff00;
+}
+
+#footer {
+  text-align: right;
+  margin-right: 50px;
+}
